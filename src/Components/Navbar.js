@@ -21,7 +21,7 @@ function Navbar() {
           <a href="/signin" className="border-none bg-transparent text-purple mr-4">
             Sign In
           </a>
-          <button className="px-6 py-2 bg-purple-500 rounded text-white">Sign Up</button>
+          <a href="/signup" className="px-6 py-2 bg-purple-500 rounded text-white">Sign Up</a>
         </div>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
